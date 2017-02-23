@@ -1,0 +1,13 @@
+<h1>Entities</h1>
+
+<ul>
+  <% @entities.each do |entity| %>
+    <li>
+      <a href="<%= entity['id'] %>"><%= entity['title'] %></a>
+    </li>
+  <% end %>
+</ul>
+
+<div>
+  <a href="/new">New Entity</a>
+</div>

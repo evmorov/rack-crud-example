@@ -1,1 +1,1 @@
-gem 'warden', '~> 1.2'
+gem 'rack'
