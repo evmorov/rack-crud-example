@@ -8,7 +8,7 @@ class Crud
   def call(env)
     @request = Rack::Request.new(env)
     response_body, response_code = handle_request
-    [response_code || 200, {"Content-Type" => "text/html"}, [response_body.to_s]]
+    [response_code || 200, { 'Content-Type' => 'text/html' }, [response_body.to_s]]
   end
 
   private

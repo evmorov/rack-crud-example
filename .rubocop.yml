@@ -1,0 +1,23 @@
+Metrics/LineLength:
+  Max: 100
+
+Metrics/AbcSize:
+  Max: 16
+
+Style/Documentation:
+  Enabled: false
+
+Style/FrozenStringLiteralComment:
+  Enabled: false
+
+Style/MutableConstant:
+  Enabled: false
+
+Style/ClassAndModuleChildren:
+  Enabled: false
+
+Metrics/MethodLength:
+  Max: 15
+
+Style/RegexpLiteral:
+  Enabled: false

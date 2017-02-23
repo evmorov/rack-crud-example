@@ -17,7 +17,7 @@ class Entity
 
   def self.create(params)
     next_id = all[all.size - 1]['id'].to_i + 1
-    CSV.open(CSV_PATH, "a+") do |csv|
+    CSV.open(CSV_PATH, 'a+') do |csv|
       csv.add_row [next_id, params['title'], params['body']]
     end
     next_id
