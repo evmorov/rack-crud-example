@@ -15,6 +15,8 @@ What's inside:
 - Unlimited space for improvements
 - Keep in mind that code organization isn't good and there can be problems if you try to add more functionality
 
+You can look at the app in action [here](https://github.com/evmorov/rack-crud-example/blob/master/rack-crud-example.gif).
+
 ## How to start
 
 1. Clone
