@@ -1,6 +1,6 @@
 GEM
   specs:
-    rack (2.0.1)
+    rack (2.0.7)
 
 PLATFORMS
   ruby
@@ -9,4 +9,4 @@ DEPENDENCIES
   rack
 
 BUNDLED WITH
-   1.14.4
+   1.17.3
