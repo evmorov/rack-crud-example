@@ -2,20 +2,20 @@
 
 ## About
 
-This small web application is an example how to make a basic CRUD web app using only [Rack gem](https://github.com/rack/rack/). It can be useful if you're trying to understand what is Rack or you're going to implement your own Rack application (such as Rails or Sinatra).
+This small web application serves as an example of how to create a basic CRUD web app using only the [Rack gem](https://github.com/rack/rack/). It's particularly helpful if you're looking to understand Rack or if you intend to implement your own Rack application, like Rails or Sinatra.
 
-Actually, it implements only index, show, new, create but it's not difficult to add others.
+Currently, it implements only the index, show, new, and create functionalities, but adding others isn't challenging.
 
-What's inside:
+Features:
 
-- No middlewares
-- View, Controller and Model are separate layers
-- No routes as a separate layer
-- No database. CSV file is used to store data
-- Unlimited space for improvements
-- Keep in mind that code organization isn't good and there can be problems if you try to add more functionality
+- No middleware
+- Separate layers for View, Controller, and Model
+- No separate layer for routes
+- No database: A CSV file stores the data
+- Ample room for improvements
+- Note that the code organization is suboptimal, which may pose challenges when trying to incorporate additional features.
 
-You can look at the app in action [here](https://github.com/evmorov/rack-crud-example/blob/master/rack-crud-example.gif).
+You can see the app in action [here](https://github.com/evmorov/rack-crud-example/blob/master/rack-crud-example.gif).
 
 ## How to start
 
